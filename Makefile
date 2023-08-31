@@ -16,5 +16,5 @@ downloads:
 	curl "https://www.imf.org/external/datamapper/api/v1/countries" -o tmp/countries.json
 
 freshdata:
-	node imf_to_csv.json
+	node imf_to_csv.js 
 
